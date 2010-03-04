@@ -1,0 +1,233 @@
+
+
+Processing ApplicationController#index (for 212.45.155.221 at 2010-03-04 14:02:28) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /root/test/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 212.45.155.221 at 2010-03-04 14:02:46) [GET]
+
+ActionController::RoutingError (No route matches "/post" with {:method=>:get}):
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /root/test/public/404.html (404 Not Found)
+
+
+Processing PostsController#index (for 212.45.155.221 at 2010-03-04 14:02:49) [GET]
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 70ms (View: 60, DB: 2) | 200 OK [http://174.129.163.253/posts]
+
+
+Processing PostsController#index (for 212.45.155.221 at 2010-03-04 14:04:28) [GET]
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 1143ms (View: 1131, DB: 2) | 200 OK [http://174.129.163.253/posts]
+
+
+Processing PostsController#index (for 212.45.155.221 at 2010-03-04 15:17:00) [GET]
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 104ms (View: 70, DB: 16) | 200 OK [http://174.129.163.253/posts]
+
+
+Processing PostsController#index (for 212.45.155.221 at 2010-03-04 15:27:11) [GET]
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 106ms (View: 97, DB: 2) | 200 OK [http://174.129.163.253/posts]
+
+
+Processing PostsController#new (for 212.45.155.221 at 2010-03-04 15:27:13) [GET]
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 94ms (View: 49, DB: 1) | 200 OK [http://174.129.163.253/posts/new]
+
+
+Processing PostsController#create (for 212.45.155.221 at 2010-03-04 15:27:17) [POST]
+  Parameters: {"authenticity_token"=>"6urI5ZmgBYzO69nleBZ3exNJLm/2VsiEHhk/2oVwCtE=", "post"=>{"title"=>"Bla"}, "commit"=>"Create"}
+Redirected to http://174.129.163.253/posts/1
+Completed in 75ms (DB: 3) | 302 Found [http://174.129.163.253/posts]
+
+
+Processing PostsController#show (for 212.45.155.221 at 2010-03-04 15:27:17) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 19ms (View: 5, DB: 10) | 200 OK [http://174.129.163.253/posts/1]
+
+
+Processing PostsController#index (for 212.45.155.221 at 2010-03-04 15:27:20) [GET]
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 29ms (View: 24, DB: 3) | 200 OK [http://174.129.163.253/posts]
+
+
+Processing PostsController#new (for 212.45.155.221 at 2010-03-04 15:27:26) [GET]
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 11ms (View: 8, DB: 1) | 200 OK [http://174.129.163.253/posts/new]
+
+
+Processing PostsController#create (for 212.45.155.221 at 2010-03-04 15:27:29) [POST]
+  Parameters: {"authenticity_token"=>"6urI5ZmgBYzO69nleBZ3exNJLm/2VsiEHhk/2oVwCtE=", "post"=>{"title"=>"Bu"}, "commit"=>"Create"}
+Redirected to http://174.129.163.253/posts/2
+Completed in 53ms (DB: 3) | 302 Found [http://174.129.163.253/posts]
+
+
+Processing PostsController#show (for 212.45.155.221 at 2010-03-04 15:27:29) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 32ms (View: 19, DB: 3) | 200 OK [http://174.129.163.253/posts/2]
+
+
+Processing PostsController#index (for 212.45.155.221 at 2010-03-04 15:27:34) [GET]
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 51ms (View: 41, DB: 3) | 200 OK [http://174.129.163.253/posts]
+
+
+Processing PostsController#index (for 212.45.155.221 at 2010-03-04 15:32:01) [GET]
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 176ms (View: 154, DB: 14) | 200 OK [http://174.129.163.253/posts]
+
+
+Processing ApplicationController#index (for 212.45.155.221 at 2010-03-04 15:39:53) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /root/test/public/404.html (404 Not Found)
+
+
+Processing PostsController#index (for 212.45.155.221 at 2010-03-04 15:44:49) [GET]
+
+RuntimeError (table_name delegated to active_record.table_name, but active_record is nil: #<ActiveRecord::Associations::ClassMethods::InnerJoinDependency::InnerJoinAssociation:0xf029f6 @reflection=#<ActiveRecord::Reflection::AssociationReflection:0x152db16 @primary_key_name="post_id", @options={:class_name=>"#<Class:01x1042592>", :extend=>[Globalize::Model::ActiveRecord::Translated::Extensions], :dependent=>:delete_all, :foreign_key=>"post_id"}, @macro=:has_many, @klass=nil, @class_name="#<Class:01x1042592>", @active_record=Post(id: integer, created_at: datetime, updated_at: datetime), @name=:globalize_translations>, @table_joins=nil, @parent_table_name="posts", @aliased_prefix="t1", @parent=#<ActiveRecord::Associations::ClassMethods::JoinDependency::JoinBase:0x6a0a21 @table_joins=nil, @active_record=Post(id: integer, created_at: datetime, updated_at: datetime), @cached_record={}>, @cached_record={}, @active_record=nil, @join_dependency=#<ActiveRecord::Associations::ClassMethods::InnerJoinDependency:0x134be9 @associations=:globalize_translations, @table_aliases={"posts"=>1}, @joins=[#<ActiveRecord::Associations::ClassMethods::JoinDependency::JoinBase:0x6a0a21 @table_joins=nil, @active_record=Post(id: integer, created_at: datetime, updated_at: datetime), @cached_record={}>], @base_records_hash={}, @reflections=[#<ActiveRecord::Reflection::AssociationReflection:0x152db16 @primary_key_name="post_id", @options={:class_name=>"#<Class:01x1042592>", :extend=>[Globalize::Model::ActiveRecord::Translated::Extensions], :dependent=>:delete_all, :foreign_key=>"post_id"}, @macro=:has_many, @klass=nil, @class_name="#<Class:01x1042592>", @active_record=Post(id: integer, created_at: datetime, updated_at: datetime), @name=:globalize_translations>], @base_records_in_order=[]>>):
+  app/controllers/posts_controller.rb:6:in `index'
+  /home/ubuntu/torquebox-1.0.0.Beta19-bin/jboss/server/default/deployers/torquebox-core-deployer.jar/lib/core/torquebox-core-1.0.0.Beta19.jar/org/torquebox/rails/web/v2_3/servlet_session.rb:33:in `call'
+  <script>:1
+
+Rendering /root/test/public/500.html (500 Internal Server Error)
+
+
+Processing ApplicationController#index (for 212.45.155.221 at 2010-03-04 16:13:02) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /home/ubuntu/torquebox-1.0.0.Beta19-bin/jboss/server/default/deployers/torquebox-core-deployer.jar/lib/core/torquebox-core-1.0.0.Beta19.jar/org/torquebox/rails/web/v2_3/servlet_session.rb:33:in `call'
+  <script>:1
+
+Rendering /root/test/public/404.html (404 Not Found)
+
+
+Processing PostsController#index (for 212.45.155.221 at 2010-03-04 16:18:34) [GET]
+
+ActiveRecord::StatementInvalid (ActiveRecord::ActiveRecordError: no such table: posts: SELECT * FROM posts ):
+  /home/ubuntu/torquebox-1.0.0.Beta19-bin/jruby/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.3-java/lib/active_record/connection_adapters/jdbc_adapter.rb:564:in `execute'
+  /home/ubuntu/torquebox-1.0.0.Beta19-bin/jruby/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.3-java/lib/jdbc_adapter/jdbc_sqlite3.rb:329:in `select'
+  /home/ubuntu/torquebox-1.0.0.Beta19-bin/jruby/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.3-java/lib/active_record/connection_adapters/jdbc_adapter.rb:549:in `jdbc_select_all'
+  app/controllers/posts_controller.rb:5:in `index'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /root/test/public/500.html (500 Internal Server Error)
+
+
+Processing PostsController#index (for 212.45.155.221 at 2010-03-04 16:19:07) [GET]
+Rendering template within layouts/posts
+Rendering posts/index
+
+ActionView::TemplateError (undefined method `title' for nil:NilClass) on line #19 of app/views/posts/index.html.erb:
+16: </table>
+17: 
+18: <br />
+19: Post title: <%= @post.title%>
+20: <br />
+21: <%= link_to 'New post', new_post_path %>
+
+    app/views/posts/index.html.erb:19
+    app/controllers/posts_controller.rb:8:in `index'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /root/test/public/500.html (500 Internal Server Error)
+
+
+Processing PostsController#index (for 212.45.155.221 at 2010-03-04 16:19:10) [GET]
+Rendering template within layouts/posts
+Rendering posts/index
+
+ActionView::TemplateError (undefined method `title' for nil:NilClass) on line #19 of app/views/posts/index.html.erb:
+16: </table>
+17: 
+18: <br />
+19: Post title: <%= @post.title%>
+20: <br />
+21: <%= link_to 'New post', new_post_path %>
+
+    app/views/posts/index.html.erb:19
+    app/controllers/posts_controller.rb:8:in `index'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/ubuntu/torquebox-current/jruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /root/test/public/500.html (500 Internal Server Error)
+
+
+Processing PostsController#index (for 212.45.155.221 at 2010-03-04 16:20:03) [GET]
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 76ms (View: 65, DB: 1) | 200 OK [http://174.129.163.253/]
